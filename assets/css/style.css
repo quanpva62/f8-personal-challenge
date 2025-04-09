@@ -130,6 +130,7 @@ a {
 .hero .body {
   display: flex;
   padding-top: 50px;
+  padding-bottom: 79px;
 }
 
 /* hero-left */
