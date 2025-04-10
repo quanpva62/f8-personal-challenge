@@ -35,9 +35,8 @@ a {
 }
 
 /* Heading */
-.header {
+.heading {
   color: #0d1111;
-  background: #fff;
   font-weight: 700;
 }
 
@@ -46,7 +45,7 @@ a {
   line-height: 1.16; /* 116.129% */
 }
 .heading.lv2 {
-  font-size: 3.4.2rem;
+  font-size: 4.2rem;
   line-height: 1.33; /* 133.333% */
 }
 
@@ -73,6 +72,12 @@ a {
   word-break: break-all;
 }
 /* Header */
+.header {
+  color: #0d1111;
+  background: #fff;
+  font-weight: 700;
+}
+
 .sticky-header {
   position: sticky;
   top: -6px;
@@ -278,4 +283,63 @@ a {
   font-size: 1rem;
   font-weight: 500;
   flex-shrink: 0;
+}
+
+/* Features */
+.features {
+  padding-top: 130px;
+}
+
+.features .section-label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.features-header {
+  width: 590px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+}
+
+.feature .features-header .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.features-group {
+  margin-top: 80px;
+}
+
+.features-group .features-items {
+  display: flex;
+}
+
+.features-group .features-items .item {
+  width: 102px;
+  height: 106px;
+}
+
+.features-group .features-items .item:nth-child(2) {
+  margin-left: 209px;
+}
+.features-group .features-items .item:nth-child(3) {
+  margin-left: 200px;
+}
+
+.features-group .features-items .item-title {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 26px;
+}
+
+.features-group .features-items .item .item-desc {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
+  margin-top: 16px;
 }
