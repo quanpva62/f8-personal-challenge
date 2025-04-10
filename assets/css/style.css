@@ -480,15 +480,7 @@ a {
   text-align: center;
 }
 
-.stats-section .heading.lv1 {
-  font-size: 4.4rem;
-  font-weight: 700;
-  color: #171100;
-  line-height: 1.23;
-}
-
 .stats-section .desc.lv2 {
   margin-top: 11px;
-  font-size: 1.6rem;
-  color: #9da6a5;
+  color: #767e7e;
 }
