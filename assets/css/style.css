@@ -104,6 +104,7 @@ a {
   display: flex;
   align-items: center;
   padding-top: 52px;
+  padding-bottom: 8px;
 }
 
 .header .nav {
@@ -151,7 +152,7 @@ a {
 /* Hero */
 .hero .body {
   display: flex;
-  padding-top: 50px;
+  padding-top: 42px;
   padding-bottom: 79px;
 }
 
@@ -613,4 +614,52 @@ a {
 
 .cta .button {
   margin-left: 410px;
+}
+
+/* Footer */
+.footer .footer-top {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-top .footer-title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.footer .footer-top .footer-column:last-child .footer-title {
+  margin-bottom: 18px;
+}
+
+.footer .footer-top .footer-column:not(:last-child) .footer-list li {
+  margin-bottom: 18px;
+}
+
+.footer .footer-top .footer-list.social {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer .footer-top .footer-list.social a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.footer .footer-top .footer-list a {
+  color: #535353;
+  font-size: 1.6rem;
+}
+
+.footer .footer-bottom {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
 }
