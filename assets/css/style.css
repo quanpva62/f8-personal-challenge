@@ -488,6 +488,7 @@ a {
 /* === testimonials === */
 .testimonials {
   margin-top: 264px;
+  height: 481px;
 }
 
 .testimonials .main-content {
@@ -546,32 +547,70 @@ a {
 .testimonials-avatar .avatar {
   object-fit: cover;
   border-radius: 50%;
+  position: absolute;
 }
 
 .testimonials-avatar .avatar:first-child {
   width: 235px;
   height: 235px;
-  position: absolute;
+  top: 107px;
+  left: 273px;
 }
 
 .testimonials-avatar .avatar:nth-child(2) {
   width: 92px;
   height: 92px;
-  top: ;
+  top: 0;
+  left: 144px;
 }
 .testimonials-avatar .avatar:nth-child(3) {
   width: 110px;
   height: 110px;
+  top: 19px;
+  right: 0;
 }
 .testimonials-avatar .avatar:nth-child(4) {
   width: 78px;
   height: 78px;
+  left: 0px;
+  top: 258px;
 }
 .testimonials-avatar .avatar:nth-child(5) {
   width: 78px;
   height: 78px;
+  left: 212px;
+  bottom: 0px;
 }
 .testimonials-avatar .avatar:nth-child(6) {
   width: 78px;
   height: 78px;
+  top: 374px;
+  right: 32px;
+}
+
+/* CTA ---------- */
+.cta {
+  margin-top: 130px;
+  background: #def6f5;
+}
+
+.cta .main-content {
+  display: flex;
+  align-items: center;
+}
+
+.cta .text .heading {
+  line-height: normal;
+  margin-top: 76px;
+}
+
+.cta .text .desc {
+  margin-top: 18px;
+  margin-bottom: 88px;
+  color: #767e7e;
+  line-height: normal;
+}
+
+.cta .button {
+  margin-left: 410px;
 }
