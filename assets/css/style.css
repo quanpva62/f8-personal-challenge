@@ -34,7 +34,10 @@ a {
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
-
+.btn:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
 .section-label {
   color: #767e7e;
   font-size: 1.2rem;
@@ -395,10 +398,18 @@ a {
 .course-group .course-item {
   display: flex;
   gap: 24px;
-  vartical-align: bottom;
 }
 .course-group .course-item .item {
   position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
+  border-radius: 8px;
+}
+.course-group .course-item .item:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  z-index: 0.9;
 }
 
 .course-item .course-img {
@@ -409,6 +420,13 @@ a {
   opacity: 0.65;
   background: #d0efed;
   object-fit: cover;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.course-item .course-img:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .course-item .course-info {
@@ -535,8 +553,12 @@ a {
   border-radius: 50%;
   background: var(--primary-color);
   border: none;
+  cursor: pointer;
 }
 
+.testimonials-content .nav .nav-btn:hover {
+  opacity: 0.8;
+}
 .reverse-icon {
   transform: scaleX(-1);
 }
