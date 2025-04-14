@@ -425,6 +425,7 @@ a {
 }
 .course-group .course-item .item:hover .course-img {
   opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .course-item .course-img:hover {
